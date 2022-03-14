@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    font-family:monospace;
+    font-size: 40px;
+}
+.results/*>[type=text]*/{
+    border: solid 2px;
+    width: 100%;
+    font-size:60px;
+    border: solid #5B6DCD 5px;
+    margin-top: 25px;
+    margin-bottom:25px;
+    overflow: auto;
+    text-align:end;
+    padding-right:10px;
+}
+.operations{
+    flex-grow:1;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    width: 30%;
+    float: right;
+}
+.operations>button{
+    background-color:rgb(241, 205, 44);
+    width: 70%;
+    height: 100%;
+    margin-top: 10px;
+    border: solid 2px white;
+}
+.numbers{
+    display:flex;
+    flex-grow: 3;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.numbers > button{
+    width: 30%;
+    height: 90px;
+    margin-left:5px;
+    margin-top: 5px;
+    border: solid 2px white;
+}
+.cont{
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:stretch;
+}
+.operations > button:hover{
+    background-color:rgb(145, 196, 238);
+    font-weight: bold;
+    border-color: rgb(12, 98, 119);
+}
+.numbers > button:hover{
+    font-weight: bold;
+    border-color: rgb(12, 98, 119);
+    background-color:rgb(145, 196, 238);
+}
+.operations > button:active{
+    background-color:rgb(0, 0, 0);
+    color:white;
+    font-weight: bold;
+    border-color: rgb(12, 98, 119);
+}
+.numbers > button:active{
+    background-color:rgb(0, 0, 0);
+    color:white;
+    font-weight: bold;
+    border-color: rgb(12, 98, 119);
+}
+.frame
+{   
+    padding: 5px;
+    border-color: #040f4d solid 10px;
+    background-color:rgb(77, 10, 77);
+    width: 500px;
+}
